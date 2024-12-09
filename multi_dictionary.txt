@@ -1,0 +1,108 @@
+# version 2
+# 2024_09_19
+
+phonetic_group(name="Vowels", voiced=true):
+	a
+	i
+	M
+	e
+	o
+
+phonetic_group(name="Semivowels", voiced=true):
+	w
+	j
+
+phonetic_group(name="Nasals", voiced=true):
+	n
+	N
+	N'
+	J
+	N\
+	m
+	m'
+
+phonetic_group(name="UnvoicedFricatives", voiced=false):
+	p\
+	s
+	S
+	C
+
+phonetic_group(name="VoicedFricatives", voiced=true):
+	z
+	Z
+	
+phonetic_group(name="Whisper", voiced=false):
+	h
+
+phonetic_group(name="VoicedAffricates", voiced=true):
+	dZ
+	dz
+	x
+	x'
+	h_
+	h_'
+	tx
+	tx'
+	tj
+	tj'
+	tg
+	tg'
+
+phonetic_group(name="UnvoicedAffricates", voiced=false):
+	ts
+	tS
+
+phonetic_group(name="Liquids", voiced=true):
+	4
+	4'
+	r
+	rr'
+	l
+	l'
+
+phonetic_group(name="UnvoicedPlosives", voiced=false):
+	p
+	p'
+	t
+	t'
+	k
+	k'
+	bl
+	bl'
+
+phonetic_group(name="VoicedPlosives", voiced=true):
+	d
+	d'
+	g
+	g'
+	g_
+	g_'
+
+phonetic_group(name="VowelsAppend", voiced=true):
+	a_@
+	e_@
+	i_@
+	o_@
+	M_@
+
+phonetic_group(name="Silence", voiced=false):
+	?
+	Sil
+
+phonetic_group(name="Breathings", voiced=false):
+	br0
+	br1
+	br2
+	br3
+	br4
+	br5
+	br6
+
+phonetic_group(name="Aspirations", voiced=false):
+	asp0
+	asp1
+	asp2
+	asp3
+	asp4
+	asp5
+	asp6
